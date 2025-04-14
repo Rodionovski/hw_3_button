@@ -1,0 +1,495 @@
+.mainText {
+    margin-top: 70px ;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.name {
+    font-size: 30px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.blockOne {
+    display: flex;
+    justify-content: flex-start;
+}
+.buttonLarge {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.logoLarge {
+    margin: 0 10px 0 40px;
+    width: 25px;
+    height: auto;
+    float: left;
+}
+.buttonMedium {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 15px;
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+
+}
+.logoMedium {
+    margin: 0 10px 0 30px;
+    width: 20px;
+    height: auto;
+    float: left;
+}
+.buttonSmall {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 11px;
+    width: 120px;
+    height: 30px;
+    font-size: 10px;
+    color: white;
+    margin-left: 100px;
+
+}
+.logoSmall {
+    margin-left: 10px;
+    width: 12px;
+    height: auto;
+    float: left;
+}
+.lineOne {
+   height: 80px;
+}
+.buttonEnabledLogo, .buttonEnabledOne, .buttonGreenOne {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+.logoLineOne {
+    margin-right: 10px;
+    width: 20px;
+    height: auto;
+    float: left;
+}
+.buttonHoverLogo {
+    background-color: darkred;
+    border: none;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin-left: 70px;
+}
+.buttonEnabledGreyLogo {
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 70px;
+}
+.buttonHoverWhiteLogo {
+    background-color: white;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 70px;
+}
+.buttonDisabledLogo {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 0 20px 0 20px;
+    margin-left: 70px;
+}
+.lineTwo {
+    height: 80px;
+}
+.buttonEnabledLogoTwo, .buttonEnabledTwo, .buttonGreenTwo {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    padding: 0 15px 0 15px;
+}
+.logoLineTwo {
+    margin-right: 8px;
+    width: 15px;
+    height: auto;
+    float: left;
+}
+.buttonHoverLogoTwo {
+    background-color: darkred;
+    border: none;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    padding: 0 15px 0 15px;
+    margin-left: 107px;
+}
+.buttonEnabledGreyLogoTwo {
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 100px;
+}
+.buttonHoverWhiteLogoTwo {
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 103px;
+}
+.buttonDisabledLogoTwo {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 103px;
+}
+.lineThree {
+    height: 80px;
+}
+.buttonEnabledLogoThree, .buttonEnabledThree, .buttonGreenThree {
+    background-color: #3DCBB1;
+    border: none;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+.logoLineThree {
+    margin-right: 8px;
+    width: 12px;
+    height: auto;
+    float: left;
+}
+.buttonHoverLogoThree {
+    background-color: darkred;
+    border: none;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    padding: 0 10px 0 10px;
+    margin-left: 140px;
+}
+.buttonEnabledGreyLogoThree {
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 125px;
+}
+.buttonHoverWhiteLogoThree {
+    background-color: white;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 135px;
+}
+.buttonDisabledLogoThree {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 130px;
+}
+.buttonHoverOne {
+    background-color: darkred;
+    border: none;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin-left: 100px;
+}
+.buttonEnabledGreyOne {
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 100px;
+}
+.buttonHoverWhiteOne {
+    background-color: white;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 100px;
+}
+.buttonDisabledOne {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 0 20px 0 20px;
+    margin-left: 100px;
+}
+.buttonHoverTwo {
+    background-color: darkred;
+    border: none;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    padding: 0 15px 0 15px;
+    margin-left: 128px;
+}
+.buttonEnabledGreyTwo {
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 125px;
+}
+.buttonHoverWhiteTwo {
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 127px;
+}
+.buttonDisabledTwo {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 125px;
+}
+.buttonHoverThree {
+    background-color: darkred;
+    border: none;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    padding: 0 10px 0 10px;
+    margin-left: 158px;
+}
+.buttonEnabledGreyThree {
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 148px;
+}
+.buttonHoverWhiteThree {
+    background-color: white;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 155px;
+}
+.buttonDisabledThree {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 148px;
+}
+.buttonRedOne {
+    background-color: darkred;
+    border: none;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    padding: 0 20px 0 20px;
+    margin-left: 150px;
+}
+.buttonGreyOne {
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 130px;
+}
+.buttonWhiteOne {
+    background-color: white;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-left: 150px;
+}
+.buttonLightGrayOne {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 15px;
+    width: fit-content;
+    height: 45px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 0 20px 0 20px;
+    margin-left: 130px;
+}
+/*.buttonGreenTwo {*/
+/*    background-color: #3DCBB1;*/
+/*    border: none;*/
+/*    border-radius: 12px;*/
+/*    width: fit-content;*/
+/*    height: 35px;*/
+/*    font-size: 15px;*/
+/*    color: white;*/
+/*    padding: 0 15px 0 15px;*/
+/*}*/
+.buttonRedTwo {
+    background-color: darkred;
+    border: none;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    color: white;
+    padding: 0 15px 0 15px;
+    margin-left: 170px;
+}
+.buttonGreyTwo {
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 145px;
+}
+.buttonWhiteTwo {
+    background-color: white;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 168px;
+}
+.buttonLightGrayTwo {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 12px;
+    width: fit-content;
+    height: 35px;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    margin-left: 148px;
+}
+.buttonRedThree {
+    background-color: darkred;
+    border: none;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    color: white;
+    padding: 0 10px 0 10px;
+    margin-left: 183px;
+}
+.buttonGreyThree {
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 160px;
+}
+.buttonWhiteThree {
+    background-color: white;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 180px;
+}
+.buttonLightGrayThree {
+    opacity: 0.25;
+    border: none;
+    background-color: darkgray;
+    border-radius: 8px;
+    width: fit-content;
+    height: 25px;
+    font-size: 10px;
+    padding: 0 10px 0 10px;
+    margin-left: 160px;
+}
+.logoOnlyTwo {
+    width: 15px;
+    height: auto;
+}
+.logoOnlyThree {
+    width: 12px;
+    height: auto;
+}
